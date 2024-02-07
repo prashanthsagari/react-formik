@@ -43,25 +43,25 @@ const UserRegistrationForm = () => {
       <Form action='#'>
         {/*  write your form fields for the following here using label tag ,  Field component and  ErrorMessage component from Formik */}
         <div>
-          <label for='name'>Name:</label>
+          <label htmlFor='name'>Name:</label>
           <Field type='text' name='name' id='name' />
           <ErrorMessage name='name' component='div' />
         </div>
 
         <div>
-          <label for='email'>Email:</label>
+          <label htmlFor='email'>Email:</label>
           <Field type='email' name='email' id='email' />
           <ErrorMessage name='email' component='div' />
         </div>
 
         <div>
-          <label for='password'>Password:</label>
+          <label htmlFor='password'>Password:</label>
           <Field type='password' name='password' id='password' />
           <ErrorMessage name='password' component='div' />
         </div>
 
         <div>
-          <label for='confirmPassword'>Confirm Password:</label>
+          <label htmlFor='confirmPassword'>Confirm Password:</label>
           <Field type='password' name='confirmPassword' id='confirmPassword' />
           <ErrorMessage name='confirmPassword' component='div' />
         </div>
